@@ -7,9 +7,10 @@ Pod::Spec.new do |spec|
   spec.summary      = 'JMRepicKit makes it easy to deal with user avatars.'
 
   spec.ios.deployment_target  = '10.0'
+  spec.swift_version = "5.0"
 
-  spec.source       = { :git => 'https://github.com/JivoChat/JMRepicKit.git', :tag => spec.version }
-  spec.source_files = '**/*.{h,swift}'
+  spec.source       = { :git => 'https://github.com/JivoChat/JMRepicKit.git', :tag => "#{spec.version}" }
+  spec.source_files = 'JMRepicKit/**/*.{h,swift}'
 
   spec.framework    = 'SystemConfiguration'
 

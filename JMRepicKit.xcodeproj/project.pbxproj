@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB1A6EEAE0FB785ADC4FACB /* Pods_JMRepicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA44224ABEB6CA360444594D /* Pods_JMRepicKit.framework */; };
+		FA76D3462631B35C00F89CED /* JMRepicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FA76D33F2631B35C00F89CED /* JMRepicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA76D3472631B35C00F89CED /* JMRepicIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76D3402631B35C00F89CED /* JMRepicIndicator.swift */; };
+		FA76D3482631B35C00F89CED /* JMRepicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76D3412631B35C00F89CED /* JMRepicTypes.swift */; };
+		FA76D3492631B35C00F89CED /* JMInternalImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76D3422631B35C00F89CED /* JMInternalImageView.swift */; };
+		FA76D34A2631B35C00F89CED /* JMRepicItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76D3432631B35C00F89CED /* JMRepicItemView.swift */; };
+		FA76D34B2631B35C00F89CED /* JMInternalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76D3442631B35C00F89CED /* JMInternalLabel.swift */; };
+		FA76D34C2631B35C00F89CED /* JMRepicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76D3452631B35C00F89CED /* JMRepicView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E94503A8CABDDB0DD5624B7 /* Pods-JMRepicKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMRepicKit.release.xcconfig"; path = "Target Support Files/Pods-JMRepicKit/Pods-JMRepicKit.release.xcconfig"; sourceTree = "<group>"; };
+		75F1185E3BBD0C510DAF2954 /* Pods-JMRepicKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMRepicKit.debug.xcconfig"; path = "Target Support Files/Pods-JMRepicKit/Pods-JMRepicKit.debug.xcconfig"; sourceTree = "<group>"; };
+		FA44224ABEB6CA360444594D /* Pods_JMRepicKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMRepicKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA76D3312631B2F300F89CED /* JMRepicKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMRepicKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA76D3352631B2F300F89CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA76D33F2631B35C00F89CED /* JMRepicKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRepicKit.h; sourceTree = "<group>"; };
+		FA76D3402631B35C00F89CED /* JMRepicIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMRepicIndicator.swift; sourceTree = "<group>"; };
+		FA76D3412631B35C00F89CED /* JMRepicTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMRepicTypes.swift; sourceTree = "<group>"; };
+		FA76D3422631B35C00F89CED /* JMInternalImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMInternalImageView.swift; sourceTree = "<group>"; };
+		FA76D3432631B35C00F89CED /* JMRepicItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMRepicItemView.swift; sourceTree = "<group>"; };
+		FA76D3442631B35C00F89CED /* JMInternalLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMInternalLabel.swift; sourceTree = "<group>"; };
+		FA76D3452631B35C00F89CED /* JMRepicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMRepicView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA76D32E2631B2F300F89CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB1A6EEAE0FB785ADC4FACB /* Pods_JMRepicKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098187846719D0C3BDEBEE2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75F1185E3BBD0C510DAF2954 /* Pods-JMRepicKit.debug.xcconfig */,
+				4E94503A8CABDDB0DD5624B7 /* Pods-JMRepicKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DB26B19B2EC636692A9FDDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA44224ABEB6CA360444594D /* Pods_JMRepicKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA76D3272631B2F300F89CED = {
+			isa = PBXGroup;
+			children = (
+				FA76D3332631B2F300F89CED /* JMRepicKit */,
+				FA76D3322631B2F300F89CED /* Products */,
+				098187846719D0C3BDEBEE2A /* Pods */,
+				8DB26B19B2EC636692A9FDDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA76D3322631B2F300F89CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA76D3312631B2F300F89CED /* JMRepicKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA76D3332631B2F300F89CED /* JMRepicKit */ = {
+			isa = PBXGroup;
+			children = (
+				FA76D3422631B35C00F89CED /* JMInternalImageView.swift */,
+				FA76D3442631B35C00F89CED /* JMInternalLabel.swift */,
+				FA76D3402631B35C00F89CED /* JMRepicIndicator.swift */,
+				FA76D3432631B35C00F89CED /* JMRepicItemView.swift */,
+				FA76D33F2631B35C00F89CED /* JMRepicKit.h */,
+				FA76D3412631B35C00F89CED /* JMRepicTypes.swift */,
+				FA76D3452631B35C00F89CED /* JMRepicView.swift */,
+				FA76D3352631B2F300F89CED /* Info.plist */,
+			);
+			path = JMRepicKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA76D32C2631B2F300F89CED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA76D3462631B35C00F89CED /* JMRepicKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA76D3302631B2F300F89CED /* JMRepicKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA76D3392631B2F300F89CED /* Build configuration list for PBXNativeTarget "JMRepicKit" */;
+			buildPhases = (
+				8B38D9B4258F33F81D555402 /* [CP] Check Pods Manifest.lock */,
+				FA76D32C2631B2F300F89CED /* Headers */,
+				FA76D32D2631B2F300F89CED /* Sources */,
+				FA76D32E2631B2F300F89CED /* Frameworks */,
+				FA76D32F2631B2F300F89CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMRepicKit;
+			productName = JMRepicKit;
+			productReference = FA76D3312631B2F300F89CED /* JMRepicKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA76D3282631B2F300F89CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA76D3302631B2F300F89CED = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = FA76D32B2631B2F300F89CED /* Build configuration list for PBXProject "JMRepicKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA76D3272631B2F300F89CED;
+			productRefGroup = FA76D3322631B2F300F89CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA76D3302631B2F300F89CED /* JMRepicKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA76D32F2631B2F300F89CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B38D9B4258F33F81D555402 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JMRepicKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA76D32D2631B2F300F89CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA76D34A2631B35C00F89CED /* JMRepicItemView.swift in Sources */,
+				FA76D34C2631B35C00F89CED /* JMRepicView.swift in Sources */,
+				FA76D3482631B35C00F89CED /* JMRepicTypes.swift in Sources */,
+				FA76D34B2631B35C00F89CED /* JMInternalLabel.swift in Sources */,
+				FA76D3492631B35C00F89CED /* JMInternalImageView.swift in Sources */,
+				FA76D3472631B35C00F89CED /* JMRepicIndicator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA76D3372631B2F300F89CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA76D3382631B2F300F89CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA76D33A2631B2F300F89CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F1185E3BBD0C510DAF2954 /* Pods-JMRepicKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2Z8328WFM8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JMRepicKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivosite.JMRepicKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA76D33B2631B2F300F89CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E94503A8CABDDB0DD5624B7 /* Pods-JMRepicKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2Z8328WFM8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JMRepicKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivosite.JMRepicKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA76D32B2631B2F300F89CED /* Build configuration list for PBXProject "JMRepicKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA76D3372631B2F300F89CED /* Debug */,
+				FA76D3382631B2F300F89CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA76D3392631B2F300F89CED /* Build configuration list for PBXNativeTarget "JMRepicKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA76D33A2631B2F300F89CED /* Debug */,
+				FA76D33B2631B2F300F89CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA76D3282631B2F300F89CED /* Project object */;
+}
