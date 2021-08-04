@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
   spec.framework    = 'SystemConfiguration'
 
-  spec.dependency     'JMImageLoader'
+  spec.dependency     'JMImageLoader', '~> 0.0.1-beta.0'
 
   spec.exclude_files = 'Info.plist'
 end
