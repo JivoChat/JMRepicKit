@@ -1,20 +1,16 @@
 PODS:
-  - Alamofire (5.4.3)
-  - AlamofireImage (4.2.0):
-    - Alamofire (~> 5.4)
+  - JMImageLoader (0.0.1-beta.0)
 
 DEPENDENCIES:
-  - AlamofireImage
+  - JMImageLoader (~> 0.0.1-beta.0)
 
 SPEC REPOS:
-  trunk:
-    - Alamofire
-    - AlamofireImage
+  https://github.com/JivoChat/JMSpecsRepoDevelop.git:
+    - JMImageLoader
 
 SPEC CHECKSUMS:
-  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  JMImageLoader: 08ffa82584a4dd0114e0c5c5422859780326d6e4
 
-PODFILE CHECKSUM: c1c01ad5e4b2a8ea0ac37f7c33b42c5d54924e6e
+PODFILE CHECKSUM: 06b80c333d316352a487481525db1d222eba4f73
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'JMRepicKit'
-  spec.version      = '1.0.0'
+  spec.version      = '1.0.2-beta.0'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/bronenos'
   spec.authors      = { 'Stan Potemkin' => 'potemkin@jivosite.com' }
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
   spec.framework    = 'SystemConfiguration'
 
-  spec.dependency     'AlamofireImage'
+  spec.dependency     'JMImageLoader', '~> 0.0.1-beta.0'
 
   spec.exclude_files = 'Info.plist'
 end
