@@ -137,23 +137,29 @@ final class JMRepicItemView: UIView {
                     accessibilityIgnoresInvertColors = true
                 }
                 
-                backgroundView.backgroundColor = nil
-                backgroundView.image = nil
-                backgroundView.tintColor = nil
-                backgroundView.contentMode = .scaleAspectFill
+                _loadDefault()
                 
-                gradientOverlay.isHidden = true
-                
-                view.backgroundColor = nil
-                view.image = image
-                view.tintColor = nil
-                view.contentMode = .scaleAspectFill
+//                backgroundView.backgroundColor = nil
+//                backgroundView.image = nil
+//                backgroundView.tintColor = nil
+//                backgroundView.contentMode = .scaleAspectFill
+//
+//                gradientOverlay.isHidden = true
+//
+//                view.backgroundColor = nil
+//                view.image = image
+//                view.tintColor = nil
+//                view.contentMode = .scaleAspectFill
                 
                 view.jmLoadImage(with: URL) { result in
-                    switch result {
-                    case .failure: _loadDefault()
-                    default: break
-                    }
+//                    switch result {
+//                    case .failure: _loadDefault()
+//                    default: break
+//                    }
+                }
+                
+                if let control = view.viewWithTag(0xF180) {
+                    control.isHidden = true
                 }
             }
         }
