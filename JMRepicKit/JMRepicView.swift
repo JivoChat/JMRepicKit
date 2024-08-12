@@ -16,7 +16,8 @@ open class JMRepicView: UIView {
     private var itemViews = [JMRepicItemView]()
     private var indicator: JMRepicIndicator?
     private var activeLayoutsItems = [JMRepicLayoutItem]()
-
+    private var previousItemsLinks: Set<String?>? = nil
+    
     public init(config: JMRepicConfig) {
         self.config = config
         self.items = []
@@ -29,6 +30,10 @@ open class JMRepicView: UIView {
     }
     
     public func configure(items: [JMRepicItem]) {
+        let currentItemsLinks = Set(items.map { $0.link })
+        if currentItemsLinks == previousItemsLinks { return }
+        
+        self.previousItemsLinks = currentItemsLinks
         self.items = items
         
         if let layoutItems = config.layoutMap[items.count] {
