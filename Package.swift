@@ -20,7 +20,7 @@ let package = Package(
             dependencies: [
                 .product(name: "JMImageLoader", package: "JMImageLoader"),
             ],
-            path: "."
+            path: "JMRepicKit"
         )
     ]
 )
