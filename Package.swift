@@ -12,7 +12,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/JivoChat/JMImageLoader.git", .branch("main")),
+        .package(url: "https://github.com/JivoChat/JMImageLoader.git", exact: "2.0.0"),
     ],
     targets: [
         .target(
